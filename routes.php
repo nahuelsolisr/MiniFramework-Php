@@ -5,7 +5,7 @@ use Core\Router;
 
 // Configura la ruta principal con el controlador HomeController y su función index
 Router::get('/', 'HomeController@index');
-
+//
 // Rutas para los alumnos 
 
 // Configura la ruta /alumnos con el controlador AlumnosController y su función index
